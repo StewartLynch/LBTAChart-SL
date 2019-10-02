@@ -26,9 +26,7 @@ struct ContentView: View {
                         .foregroundColor(Color(red: 14/255, green: 75/255, blue: 58/255))
                         .padding(.bottom, 0)
                     SUISegmentedControl(selectedTime: self.$selectedTime)
-                    
                     HStack (spacing: self.spacing) {
-                        // WARNING: Don't use a ForEach here, it doesn't animate.
                         StackedBarView(dataPoint: self.dataSet[self.selectedTime][0], width: (geometry.size.width - 8 * self.spacing) / 7)
                         StackedBarView(dataPoint: self.dataSet[self.selectedTime][1], width: (geometry.size.width - 8 * self.spacing) / 7)
                         StackedBarView(dataPoint: self.dataSet[self.selectedTime][2], width: (geometry.size.width - 8 * self.spacing) / 7)

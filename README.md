@@ -1,6 +1,8 @@
 # LBTAChart-SL
 This is a reworking of the SwiftUI Basic Charts app that was originally created by Brian Voong @buildthatapp
 
+![Demo](Demo.gif)
+
 The original source code can be found here
 
  https://www.letsbuildthatapp.com/guides
