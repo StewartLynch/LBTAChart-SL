@@ -7,6 +7,8 @@ The original source code can be found here
 
  https://www.letsbuildthatapp.com/guides
 
+By the way, if you do not already follow @buildthatapp on Twitter you should, and make sure you watch his tutorials and read the guides he is putting up on his website.
+
 ### Changes Made
 
 - Separated out the model and data into a separate file
