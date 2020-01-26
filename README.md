@@ -9,7 +9,7 @@ The original source code can be found here
 
 By the way, if you do not already follow @buildthatapp on Twitter you should, and make sure you watch his tutorials and read the guides he is putting up on his website.
 
-### Changes Made
+### Changes I Made To Project
 
 - Separated out the model and data into a separate file
 
